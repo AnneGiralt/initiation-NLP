@@ -1,0 +1,2 @@
+In train data there is a header paragraph in each file that is not present in the test data, giving information on how the data was collected. 
+You may want to get rid of it.
