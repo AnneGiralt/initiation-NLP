@@ -47,6 +47,7 @@ def create_vocabulary(h5py_file, data):
 
 	with open("dictionary_voc.json", 'w') as f:
 		json.dump(D,f)
+		
 	h5py_file.create_dataset("Vocabulary",  data=M)
 	return None
 
